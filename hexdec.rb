@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 def hexdec(hex)
 	dec = hex.to_i(16)

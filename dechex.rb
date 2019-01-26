@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 def dechex(dec)
 	dec = dec.to_i		# convert argument to integer

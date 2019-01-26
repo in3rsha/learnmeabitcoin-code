@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 def swapendian(hex)
 	# 1. Reverse the string
