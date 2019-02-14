@@ -47,4 +47,4 @@ txids = [
 
 txids = txids.map {|x| x.scan(/../).reverse.join('') } # TXIDs must be in little endian
 result = merkleroot(txids) # The result is in little endian, so lets convert it back to big endian...
-puts result.join('').scan(/../).reverse.join('') # f3e94742aca4b5ef85488dc37c06c3282295ffec960994b2c0d5ac2a25a95766
+puts result.scan(/../).reverse.join('') # f3e94742aca4b5ef85488dc37c06c3282295ffec960994b2c0d5ac2a25a95766
