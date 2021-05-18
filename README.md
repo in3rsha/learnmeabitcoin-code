@@ -22,4 +22,4 @@ Small, educational snippets of code to help you to understand and work with Bitc
 
 * [keygenerator.rb](keygenerator.rb) - Create a set of keys ([Private Key](https://learnmeabitcoin.com/guide/private-key), [Public Key](https://learnmeabitcoin.com/guide/public-key), Address) for sending and receiving bitcoin.
 
-* [scriptdecoder.rb](keygenerator.rb) - Decode and run [Script](https://learnmeabitcoin.com/guide/script).
+* [scriptdecoder.rb](scriptdecoder.rb) - Decode and run [Script](https://learnmeabitcoin.com/guide/script).
